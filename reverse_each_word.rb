@@ -4,6 +4,7 @@ def reverse_each_word(string)
   array.each do |word|
     new_string += "#{word.reverse} "
   end
-    return new_string
+    
+    return new_string.chop
 
 end
