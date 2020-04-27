@@ -18,4 +18,3 @@ def reverse_each_word(string)
     return new_string.chop
 
 end
-
